@@ -1,7 +1,6 @@
 # event for Publish
 'http.post./kafka-pub':
   fn: kafka-publish
-  authn: true
   body:
     content:
       application/json:
